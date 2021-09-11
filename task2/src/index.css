@@ -21,6 +21,47 @@ code {
 
 .header {
   font-size: 40px;
+  position: absolute;
+  left: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    font-size: 30px;
+  }
+}
+
+.fa-search {
+  position: absolute;
+  right: 84px;
+  top: 34px;
+  color: #808080;
+}
+
+.searchbar:focus + .fa-search {
+  color: black;
+}
+
+.searchbar {
+  position: absolute;
+  right: 80px;
+  font-size: 16px;
+  padding: 6px 0px 6px 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 4px;
+  width: 200px;
+  top: 25px;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  background-color: white;
+  border-bottom: solid 1px;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .station {
