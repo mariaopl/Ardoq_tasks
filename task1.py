@@ -4,6 +4,3 @@ def highestProduct(listOfIntegers):
     for i in range(3):
         product = product * listOfIntegers[i]
     return product
-
-  
-
