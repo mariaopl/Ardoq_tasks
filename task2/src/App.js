@@ -62,7 +62,7 @@ function App() {
     <div className="App">
       <div className="navbar">
         <h1 className="header">
-          <i className="fas fa-bicycle"></i> Oslo bysykkel
+          <i className="fas fa-bicycle"></i> Oslo Bysykkel
         </h1>
         <div className="input-container">
           <input
